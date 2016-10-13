@@ -46,14 +46,15 @@ public class TakeHomeTest {
              if(x>=0){
             myList.add(x);       
         }
-            else{
-            System.out.println("Invalid Input");
-            }
         int sum=0;
-        
+        for(Integer l: myList) {
+            sum= sum +l;}
+            System.out.println("The Sum Is:" + sum);
+       
+
        
         
-         sum = (int) (sum + x);
+        
 }
 }
 }
